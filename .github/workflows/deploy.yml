@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [clean-main]
   schedule:
     - cron: '0 2 * * *'  # Daily at 2 AM UTC
   workflow_dispatch:  # Manual trigger
@@ -91,7 +91,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main  # Always use latest main (after scrape commit)
+          ref: clean-main  # Always use latest clean-main (after scrape commit)
           
       - name: Setup Node.js
         uses: actions/setup-node@v4

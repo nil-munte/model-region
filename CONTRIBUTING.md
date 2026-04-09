@@ -14,7 +14,7 @@ This project is configured for **OpenCode**, an AI coding agent. If you use Open
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/nilmunte/model-region.git
+   git clone https://github.com/nil-munte/model-region.git
    cd model-region
    ```
 
@@ -67,7 +67,7 @@ This project is configured for **OpenCode**, an AI coding agent. If you use Open
 2. **Preview Deployment**: 
    - A preview URL will be posted as a PR comment within 2-3 minutes
    - Preview updates automatically on each push
-   - Format: `https://nilmunte.github.io/model-region/pr-NUMBER/`
+   - Format: `https://nil-munte.github.io/model-region/pr-NUMBER/`
 
 3. **Review**: 
    - Maintainers will review your changes
@@ -75,7 +75,7 @@ This project is configured for **OpenCode**, an AI coding agent. If you use Open
    - Push updates to the same branch
 
 4. **Merge**: 
-   - Once approved, PR will be merged to `main`
+   - Once approved, PR will be merged to `clean-main`
    - Production deployment happens automatically
    - Preview cleanup happens automatically
 
@@ -263,9 +263,9 @@ For most repository operations, manual git commands are simpler and more efficie
 
 ## Questions or Issues?
 
-- **Bug reports**: [Open an issue](https://github.com/nilmunte/model-region/issues)
-- **Feature requests**: [Open an issue](https://github.com/nilmunte/model-region/issues)
-- **Questions**: [Start a discussion](https://github.com/nilmunte/model-region/discussions)
+- **Bug reports**: [Open an issue](https://github.com/nil-munte/model-region/issues)
+- **Feature requests**: [Open an issue](https://github.com/nil-munte/model-region/issues)
+- **Questions**: [Start a discussion](https://github.com/nil-munte/model-region/discussions)
 
 ## License
 

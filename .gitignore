@@ -62,3 +62,4 @@ next-env.d.ts
 # Temporary files
 _ul*
 nul
+.git-rewrite/
