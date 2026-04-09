@@ -1,12 +1,12 @@
 # Model-Region Availability Tracker
 
-[![Deploy Status](https://github.com/nilmunte/model-region/actions/workflows/deploy.yml/badge.svg)](https://github.com/nilmunte/model-region/actions/workflows/deploy.yml)
+[![Deploy Status](https://github.com/nil-munte/model-region/actions/workflows/deploy.yml/badge.svg)](https://github.com/nil-munte/model-region/actions/workflows/deploy.yml)
 
 A tool to track AI model availability across different cloud providers and regions.
 
 ## 🌐 Live Demo
 
-**Production Dashboard**: https://nilmunte.github.io/model-region/
+**Production Dashboard**: https://nil-munte.github.io/model-region/
 
 The dashboard is automatically updated daily at 2 AM UTC with the latest model availability data.
 
@@ -119,7 +119,7 @@ This project uses GitHub Actions for automated deployment to GitHub Pages.
 
 ### CI/CD Pipeline
 
-- **Production**: Deploys to GitHub Pages on every push to `main`
+- **Production**: Deploys to GitHub Pages on every push to `clean-main`
 - **PR Previews**: Each PR gets a preview deployment at `/pr-{number}/`
 - **Scheduled Updates**: Data is refreshed daily at 2 AM UTC
 - **Build Cache**: Optimized builds complete in ~2-3 minutes

@@ -39,7 +39,7 @@ and push your changes to it
 The agent recognizes it needs GitHub operations and uses:
 ```javascript
 github_create_branch({ 
-  repo: "nilmunte/model-region",
+  repo: "nil-munte/model-region",
   branch: "feature/improve-aws-parser" 
 })
 ```
