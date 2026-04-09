@@ -8,10 +8,11 @@ MCP servers provide **external tools** that extend OpenCode's capabilities. They
 
 ### Current MCP Configuration
 
-**GitHub MCP Server** (disabled by default)
-- **Purpose**: Automated GitHub operations (create repos, push files, manage branches)
+**GitHub MCP Server** (enabled)
+- **Purpose**: Automated GitHub operations (create repos, push files, manage branches, PRs)
 - **Location**: `opencode.jsonc`
-- **Status**: Disabled (to minimize context overhead)
+- **Status**: **Enabled** - agents can autonomously manage GitHub operations
+- **Authentication**: Configured via OAuth (use `opencode mcp auth github` to re-authenticate if needed)
 
 ## How Agents Use MCP Tools
 
@@ -121,26 +122,99 @@ tools:
 ---
 ```
 
-## Common Use Cases
+## Autonomous GitHub Operations (Senior Engineer Mode)
 
-### 1. Automated Branch Creation
+**Agents in this project operate autonomously** - they manage git and GitHub operations without asking for permission.
+
+### Branch + Commit + Push Workflow
+
+Agents should autonomously:
+1. Pull latest changes: `git pull origin clean-main`
+2. Create a feature branch (if needed): `github_create_branch({ branch: "feature/name" })`
+3. Make changes and commit: `git add . && git commit -m "feat: description"`
+4. Push to remote: `git push origin <branch-name>`
+5. Create PR: `github_create_pull_request({ head: "feature/name", base: "clean-main" })`
+
+**No permission needed** - agents use engineering judgment to decide when to commit/push.
+
+### When to Use Direct Push vs. PR
+
+**Direct push to `clean-main`:**
+- Documentation updates
+- Bug fixes (tested and working)
+- Small refactors
+- Data regeneration after scraper fixes
+
+**Create PR (feature branch):**
+- New provider scrapers
+- Breaking changes to data contracts
+- Large refactors affecting multiple files
+- Experimental features
+
+### Common Use Cases
+
+#### 1. Autonomous Feature Development
 
 ```
-@scraper-specialist create a branch for the new Oracle Cloud scraper 
-and push the initial implementation
+@scraper-specialist add support for Oracle Cloud scraper
 ```
 
-### 2. Pull Request Creation
+The agent will:
+- Pull latest from `clean-main`
+- Create branch `feature/oracle-scraper`
+- Implement the scraper
+- Run tests
+- Commit with message like `feat: add Oracle Cloud scraper with region mapping`
+- Push to remote
+- Create PR automatically
+
+**No "May I commit?" questions** - the agent knows to commit when the feature is done.
+
+#### 2. Autonomous Bug Fix
 
 ```
-Create a PR with all the scraper improvements you just made
+@scraper-specialist the Azure parser is broken for new table structure
 ```
 
-### 3. Issue Management
+The agent will:
+- Pull latest from `clean-main`
+- Fix the parser
+- Regenerate data
+- Run tests
+- Commit: `fix: handle new Azure table structure in scraper`
+- Push directly to `clean-main` (it's a fix, not a feature)
+
+#### 3. Autonomous Documentation Update
+
+```
+Update the README with the new Oracle provider
+```
+
+The agent will:
+- Pull latest
+- Edit README.md
+- Commit: `docs: add Oracle Cloud to README`
+- Push to `clean-main` (docs = direct push)
+
+#### 4. PR Management
+
+```
+@scraper-specialist review PR #5 and merge if tests pass
+```
+
+The agent will:
+- Use `github_get_pull_request` to fetch PR details
+- Use `github_get_pull_request_status` to check CI status
+- Use `github_get_pull_request_files` to review changes
+- Use `github_merge_pull_request` if everything looks good
+
+### Issue Management
 
 ```
 List all open issues related to scrapers
 ```
+
+Agent uses `github_list_issues({ state: "open", labels: ["scraper"] })`
 
 ## Other MCP Servers
 

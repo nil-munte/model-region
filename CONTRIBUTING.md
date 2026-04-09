@@ -9,6 +9,7 @@ This project is configured for **OpenCode**, an AI coding agent. If you use Open
 - **Agents**: Invoke specialized agents with `@scraper-specialist` or `@query-specialist`
 - **Skills**: Load skills with commands like `load the model-link-scraping skill`
 - **Configuration**: See `AGENTS.md` for complete OpenCode documentation
+- **Autonomous Mode**: Agents operate as senior engineers - they autonomously pull, commit, and push without asking permission (see `AGENTS.md` "Agent Behavior: Senior Software Engineer Role" section)
 
 ## Development Workflow
 
@@ -185,81 +186,42 @@ To add support for a new cloud provider:
 5. **Test locally**: Run scraper and validate output
 6. **Update docs**: Add provider to README.md
 
-## GitHub MCP Server (Optional)
+## GitHub MCP Server
 
-This project includes configuration for the GitHub MCP (Model Context Protocol) server, which enables OpenCode to interact with GitHub directly.
+This project has the **GitHub MCP server enabled** in `opencode.jsonc`, allowing OpenCode agents to autonomously manage GitHub operations.
 
-### When to Use
+### Autonomous Operations
 
-The GitHub MCP is **disabled by default** to minimize context usage. Enable it when you need:
-- Automated repository operations
-- Programmatic PR/issue management
-- Batch GitHub operations
+OpenCode agents in this project can autonomously:
+- Create branches (`github_create_branch`)
+- Create pull requests (`github_create_pull_request`)
+- Manage issues (`github_create_issue`, `github_list_issues`, `github_update_issue`)
+- Merge PRs (`github_merge_pull_request`)
 
-### Enabling GitHub MCP
-
-**Option 1: Per-prompt** (recommended)
-```
-use github to create a new repository named my-repo
-```
-
-**Option 2: Enable globally**
-
-Edit `opencode.json`:
-```json
-{
-  "mcp": {
-    "github": {
-      "enabled": true
-    }
-  }
-}
-```
+**No manual git commands needed** - agents handle the full workflow automatically.
 
 ### Authentication
 
-**Using OAuth** (requires GitHub Copilot subscription):
+GitHub MCP is already authenticated. If you need to re-authenticate:
 ```bash
 opencode mcp auth github
 ```
 
-**Using Personal Access Token** (alternative):
+### Example Workflows
 
-1. Create PAT: https://github.com/settings/personal-access-tokens/new
-2. Required scopes: `repo`, `read:org`, `workflow`
-3. Set environment variable: `GITHUB_PERSONAL_ACCESS_TOKEN`
-4. Update `opencode.json`:
-```json
-{
-  "mcp": {
-    "github": {
-      "oauth": false,
-      "headers": {
-        "Authorization": "Bearer {env:GITHUB_PERSONAL_ACCESS_TOKEN}"
-      }
-    }
-  }
-}
+**Agents automatically handle:**
 ```
-
-### Testing
-
-```bash
-# List MCP servers
-opencode mcp list
-
-# Debug GitHub MCP connection
-opencode mcp debug github
-
-# Check auth status
-opencode mcp auth list
+@scraper-specialist add Oracle Cloud scraper
 ```
+→ Agent creates branch, implements feature, commits, pushes, creates PR
 
-### Context Considerations
+**Quick fixes go direct to clean-main:**
+```
+@scraper-specialist fix the Azure parser bug
+```
+→ Agent pulls, fixes, tests, commits, pushes to `clean-main`
 
-⚠️ The GitHub MCP server adds significant tokens to your context. Use it selectively to avoid exceeding token limits.
-
-For most repository operations, manual git commands are simpler and more efficient.
+See `AGENTS.md` and `.opencode/MCP-USAGE.md` for detailed autonomous operation guidelines.
 
 ## Questions or Issues?
 

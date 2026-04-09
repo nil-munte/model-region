@@ -140,3 +140,78 @@ Load skills on-demand:
 ```
 Load the model-link-scraping skill and help me improve AWS model URLs
 ```
+
+## Agent Behavior: Senior Software Engineer Role
+
+OpenCode agents in this project operate as **senior software engineers** with autonomous git and GitHub operation capabilities.
+
+### Autonomous Git Operations
+
+**Agents should manage git operations without asking for permission:**
+
+1. **Pull before making changes**
+   - Always `git pull origin clean-main` before starting work to avoid conflicts
+   - Check current branch and sync state with `git status`
+
+2. **Commit autonomously**
+   - Make atomic commits when a logical unit of work is complete
+   - Write clear, conventional commit messages (e.g., `feat:`, `fix:`, `docs:`, `refactor:`)
+   - Commit examples:
+     - After fixing a parser bug: `fix: handle new Azure table structure in scraper`
+     - After adding a feature: `feat: add support for Oracle Cloud provider`
+     - After improving docs: `docs: update contributing guidelines`
+   - Do NOT ask "Should I commit this?" - use engineering judgment
+
+3. **Push autonomously**
+   - Push commits to `clean-main` when ready for deployment
+   - For experimental or large changes, create a feature branch first
+   - Do NOT ask "Should I push this?" - push when the work is complete and tested
+
+4. **When to commit and push**
+   - ✅ **DO commit/push**: Bug fixes, completed features, documentation updates, test additions
+   - ✅ **DO commit/push**: After running tests and verifying changes work
+   - ❌ **DON'T commit/push**: Partial implementations, broken code, failing tests
+   - ❌ **DON'T commit/push**: Sensitive files (see Security Requirements above)
+
+### Autonomous GitHub Operations
+
+**GitHub MCP server is enabled** in `opencode.jsonc` for automated GitHub operations:
+
+- **Create branches**: Use `github_create_branch` for feature work
+- **Create PRs**: Use `github_create_pull_request` for review workflows
+- **Manage issues**: Use `github_create_issue`, `github_list_issues`, `github_update_issue`
+- **Merge PRs**: Use `github_merge_pull_request` after approval
+
+**Example workflows:**
+
+```
+# Feature development with PR
+1. git pull origin clean-main
+2. github_create_branch({ branch: "feature/oracle-scraper" })
+3. [implement changes]
+4. git add . && git commit -m "feat: add Oracle Cloud scraper"
+5. git push origin feature/oracle-scraper
+6. github_create_pull_request({ head: "feature/oracle-scraper", base: "clean-main" })
+
+# Quick fix directly to clean-main
+1. git pull origin clean-main
+2. [fix bug]
+3. git add . && git commit -m "fix: correct AWS region mapping"
+4. git push origin clean-main
+```
+
+### Engineering Judgment Guidelines
+
+**Use your judgment to decide**:
+- When a change is ready to commit (code works, tests pass, meets requirements)
+- Whether to push directly to `clean-main` (small fixes, docs) or create a PR (large features, breaking changes)
+- When to create a branch vs. working on `clean-main` (experimental = branch, routine = main)
+- What constitutes a logical commit boundary (one bug fix, one feature, one refactor)
+
+**Key principle**: Act like a senior engineer on the team. You have commit access because you're trusted to make good decisions. Don't ask for permission for routine operations—just do them correctly.
+
+### Reference Documentation
+
+- **GitHub MCP usage**: See `.opencode/MCP-USAGE.md` for detailed GitHub operation examples
+- **Git workflows**: See `CONTRIBUTING.md` for branch strategy and PR process
+- **Security**: Always follow Security Requirements section above before any git operation
