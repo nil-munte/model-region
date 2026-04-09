@@ -1,0 +1,124 @@
+name: PR Preview Deployment
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pr-preview-${{ github.event.pull_request.number }}"
+  cancel-in-progress: true
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Cache web dependencies
+        id: cache-web
+        uses: actions/cache@v4
+        with:
+          path: web/node_modules
+          key: web-deps-${{ hashFiles('web/package-lock.json') }}
+          restore-keys: web-deps-
+          
+      - name: Install web dependencies
+        if: steps.cache-web.outputs.cache-hit != 'true'
+        working-directory: ./web
+        run: npm ci
+        
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: |
+            web/.next/cache
+            web/.next/static
+          key: nextjs-pr-${{ hashFiles('web/package-lock.json') }}-${{ hashFiles('web/**/*.tsx', 'web/**/*.ts', 'web/**/*.css') }}
+          restore-keys: |
+            nextjs-pr-${{ hashFiles('web/package-lock.json') }}-
+            nextjs-pr-
+            nextjs-
+            
+      - name: Build preview
+        working-directory: ./web
+        run: npm run build
+        env:
+          NODE_ENV: production
+          PR_PATH: /pr-${{ github.event.pull_request.number }}
+          
+      - name: Add PR info
+        working-directory: ./web/out
+        run: |
+          echo "{\"pr\":${{ github.event.pull_request.number }},\"commit\":\"${{ github.sha }}\",\"deployedAt\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > pr-info.json
+          
+      - name: Deploy to gh-pages (PR subfolder)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web/out
+          destination_dir: pr-${{ github.event.pull_request.number }}
+          keep_files: true  # Don't remove other PRs
+          
+      - name: Comment PR with preview URL
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const repoName = context.repo.repo;
+            const owner = context.repo.owner;
+            const previewUrl = `https://${owner}.github.io/${repoName}/pr-${prNumber}/`;
+            
+            const comment = `## 🚀 Preview Deployment
+            
+            Your PR preview is ready!
+            
+            **Preview URL**: ${previewUrl}
+            
+            **Build Info**:
+            - Commit: \`${context.sha.substring(0, 7)}\`
+            - Built at: \`${new Date().toISOString()}\`
+            
+            This preview will update automatically when you push new commits.
+            It will be removed when this PR is closed.`;
+            
+            // Check if we already commented
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            
+            const existingComment = comments.find(c => 
+              c.user.login === 'github-actions[bot]' && 
+              c.body.includes('Preview Deployment')
+            );
+            
+            if (existingComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existingComment.id,
+                body: comment,
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: comment,
+              });
+            }

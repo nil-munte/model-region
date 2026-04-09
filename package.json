@@ -1,0 +1,30 @@
+{
+  "name": "model-region",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx src/test-data.ts",
+    "scrape:azure": "tsx src/scrapers/azure.ts",
+    "scrape:aws": "tsx src/scrapers/aws.ts",
+    "scrape:azure-databricks": "tsx src/scrapers/azure-databricks.ts",
+    "scrape:gcp": "tsx src/scrapers/gcp.ts",
+    "query": "tsx src/query.ts",
+    "validate-urls": "tsx scripts/validate-urls.ts",
+    "discover-patterns": "tsx scripts/discover-patterns.ts",
+    "validate-data": "tsx scripts/validate-data.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cheerio": "^1.2.0"
+  }
+}

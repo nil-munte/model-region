@@ -1,0 +1,3412 @@
+{
+  "provider": "Azure Databricks",
+  "lastUpdated": "2026-04-09T09:20:35.906Z",
+  "models": [
+    {
+      "name": "BGE v1.5 (English)",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "databricks-claude-3-7-sonnet",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-sonnet"
+    },
+    {
+      "name": "databricks-claude-haiku-4-5",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-haiku-4-5"
+    },
+    {
+      "name": "databricks-claude-opus-4-1",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-opus-4-1"
+    },
+    {
+      "name": "databricks-claude-opus-4-5",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-opus-4-5"
+    },
+    {
+      "name": "databricks-claude-opus-4-6",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-opus-4-6"
+    },
+    {
+      "name": "databricks-claude-sonnet-4",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4"
+    },
+    {
+      "name": "databricks-claude-sonnet-4-5",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4-5"
+    },
+    {
+      "name": "databricks-claude-sonnet-4-6",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-sonnet-4-6"
+    },
+    {
+      "name": "databricks-gemma-3-12b",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#google-gemma-3"
+    },
+    {
+      "name": "databricks-gpt-oss-120b",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#openai-gpt-120b"
+    },
+    {
+      "name": "databricks-gpt-oss-20b",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#openai-gpt-20b"
+    },
+    {
+      "name": "databricks-gte-large-en",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#gte-large"
+    },
+    {
+      "name": "databricks-llama-4-maverick",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#meta-llama-4-maverick"
+    },
+    {
+      "name": "databricks-meta-llama-3-1-405b-instruct",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#meta-llama-3-405b-instruct"
+    },
+    {
+      "name": "databricks-meta-llama-3-1-8b-instruct",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#meta-llama-3-8b-instruct"
+    },
+    {
+      "name": "databricks-meta-llama-3-3-70b-instruct",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#meta-llama-3-3-70b-instruct"
+    },
+    {
+      "name": "databricks-qwen3-embedding-0-6b",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#qwen3-embedding-0-6b"
+    },
+    {
+      "name": "databricks-qwen3-next-80b-a3b-instruct",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct"
+    },
+    {
+      "name": "Google Gemma 3 12B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "GTE v1.5 (English)",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "Meta Llama 3.1",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "Meta Llama 3.2 1B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "Meta Llama 3.2 3B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "Meta Llama 3.3",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "Meta Llama 4 Maverick",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "OpenAI GPT OSS 120B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "OpenAI GPT OSS 20B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    }
+  ]
+}

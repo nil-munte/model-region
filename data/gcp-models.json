@@ -1,0 +1,4516 @@
+{
+  "provider": "Google Vertex AI",
+  "lastUpdated": "2026-04-09T09:20:39.562Z",
+  "models": [
+    {
+      "name": "Gemini 2.5 Flash Live API Native Audio",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash, 128k",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash, 1M",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash Image",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash-Lite",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro, 1M",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro, 64k",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Tuning for Gemini 2.5 Flash",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Tuning for Gemini 2.5 Flash-Lite",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Tuning for Gemini 2.5 Pro",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.0 Flash",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.0 Flash-Lite",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Tuning for Gemini 2.0 Flash",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Tuning for Gemini 2.0 Flash-Lite",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini Embedding",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/embedding-2",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Chirp 2: Transcription",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models#speech-models",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Chirp 3: Transcription",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models#speech-models",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Chirp 3: HD Voices",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models#speech-models",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Chirp 3: Instant Custom Voice",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models#speech-models",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Imagen 2",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency#multi-region",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Embeddings for Multimodal",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models#multimodal-embeddings",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Embeddings for Text",
+      "source": "Google Cloud Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency#asia-pacific",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Haiku 4.5",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Opus 4.5",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Opus 4.6",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Sonnet 4",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Sonnet 4.5",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Sonnet 4.6",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude 3.5 Haiku (deprecated)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude 3 Haiku (deprecated)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude 3.7 Sonnet (deprecated)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Codestral (24.05)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Codestral 2",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large (24.07)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Mistral Medium 3",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Mistral OCR (25.05)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 3.1 (25.03)",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/mistral",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-OCR",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/deepseek",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek R1 (0528)",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/deepseek",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-V3.1",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/deepseek",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "GLM 4.7",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/zaiorg",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "GLM 5",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/zaiorg",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss 120B",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/openai",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss 20B",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/openai",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Kimi K2 Thinking",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/kimi",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Llama 3.3 70B (Preview)",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/llama",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Llama 4 Maverick 17B-128E (Preview)",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/llama",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Llama 4 Scout 17B-16E (Preview)",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/llama",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "MiniMax M2",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/minimax",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Multilingual E5 Large",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/e5",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Multilingual E5 Small",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/e5",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Qwen3 235B",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/qwen",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Qwen3 Coder",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/qwen",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Next-80B Instruct",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/qwen",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Next-80B Thinking",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/qwen",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    }
+  ]
+}
