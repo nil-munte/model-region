@@ -20,6 +20,8 @@ jobs:
   # Job 1: Scrape fresh data (only when needed)
   scrape:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     # Run scrapers only on schedule, manual trigger, or scraper code changes
     if: |
       github.event_name == 'schedule' || 
@@ -84,6 +86,8 @@ jobs:
     needs: [scrape]
     if: always()  # Run even if scrape was skipped
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
