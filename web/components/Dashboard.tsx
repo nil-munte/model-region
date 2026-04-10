@@ -2,7 +2,13 @@
 
 import { useState, useMemo } from "react";
 import type { ProviderData, ModelInfo } from "@/lib/data";
-import { groupRegions, getDefaultRegion } from "@/lib/regions";
+import {
+  groupRegions,
+  getDefaultRegion,
+  isContinent,
+  regionsForContinent,
+  CONTINENT_PREFIX,
+} from "@/lib/regions";
 import { getModelFamily, sortFamilies } from "@/lib/families";
 import { getModelUrl } from "@/lib/model-urls";
 
@@ -43,6 +49,13 @@ export default function Dashboard({ providers }: Props) {
     [allRegions, provider],
   );
 
+  /* ---- derived: is continent selected & which regions it covers ---- */
+  const isContinentSelected = isContinent(region);
+  const continentRegionNames = useMemo(() => {
+    if (!isContinentSelected) return [];
+    return regionsForContinent(region, allRegions, provider);
+  }, [isContinentSelected, region, allRegions, provider]);
+
   /* ---- derived: all deployment types and sources for the current provider ---- */
   const { availableDtypes, availableSources, azureSourceTags, allUniqueTags } = useMemo(() => {
     if (!data) return { availableDtypes: [], availableSources: [], azureSourceTags: [], allUniqueTags: [] };
@@ -51,12 +64,21 @@ export default function Dashboard({ providers }: Props) {
     for (const model of data.models) {
       if (model.source) sourceSet.add(model.source);
       
-      if (viewMode === "single") {
+      if (viewMode === "single" && !isContinentSelected) {
         // In single-region mode, only collect deployment types for the selected region
         const regionEntry = model.regions.find((r) => r.region === region);
         if (regionEntry?.available) {
           for (const dt of regionEntry.deploymentTypes ?? []) {
             dtypeSet.add(dt);
+          }
+        }
+      } else if (viewMode === "single" && isContinentSelected) {
+        // Continent mode: collect deployment types from all regions in the continent
+        for (const regionEntry of model.regions) {
+          if (continentRegionNames.includes(regionEntry.region) && regionEntry.available) {
+            for (const dt of regionEntry.deploymentTypes ?? []) {
+              dtypeSet.add(dt);
+            }
           }
         }
       } else {
@@ -86,58 +108,49 @@ export default function Dashboard({ providers }: Props) {
       azureSourceTags: azureSources,
       allUniqueTags: uniqueTags,
     };
-  }, [data, provider, viewMode, region]);
+  }, [data, provider, viewMode, region, isContinentSelected, continentRegionNames]);
 
   /* ---- derived: available models grouped by family ---- */
   const { familyGroups, availableCount, totalModels } = useMemo(() => {
     if (!data) return { familyGroups: [] as FamilyGroup[], availableCount: 0, totalModels: 0 };
 
     const lowerSearch = search.toLowerCase();
-    
-    // Separate selected filters into sources and deployment types
-    // For Azure: source tags (Row 1) are separate from deployment types (Row 2)
-    // For other providers: all tags are treated the same (they can be sources OR dtypes)
-    const selectedSourceFilters = provider === "azure" 
-      ? selectedDtypes.filter(dt => azureSourceTags.includes(dt))
-      : selectedDtypes.filter(dt => availableSources.includes(dt));
-    const selectedDtypeFilters = provider === "azure"
-      ? selectedDtypes.filter(dt => availableDtypes.includes(dt) && !azureSourceTags.includes(dt))
-      : selectedDtypes.filter(dt => availableDtypes.includes(dt));
+
+    /**
+     * Helper: does a model pass the tag filter for a given set of region entries?
+     * Returns true if every selected tag is satisfied by the model source or by
+     * at least one of the provided (available) region entries' deploymentTypes.
+     */
+    function passesTagFilter(model: ModelInfo, regionEntries: { deploymentTypes: string[] }[]): boolean {
+      if (selectedDtypes.length === 0) return true;
+      // Collect the union of deployment types across the provided regions
+      const dtypeUnion = new Set<string>();
+      for (const re of regionEntries) {
+        for (const dt of re.deploymentTypes ?? []) dtypeUnion.add(dt);
+      }
+      return selectedDtypes.every((tag: string) => model.source === tag || dtypeUnion.has(tag));
+    }
 
     // Filter models based on view mode
     const filteredModels: ModelInfo[] = [];
     for (const model of data.models) {
-      // Check if model has ALL selected tags (AND logic)
-      // For each selected tag, the model must have it either as source or in deploymentTypes
-      
-      if (viewMode === "single") {
+      if (viewMode === "single" && !isContinentSelected) {
         // Single region mode: only show models available in the selected region
         const regionEntry = model.regions.find((r) => r.region === region);
         if (!regionEntry?.available) continue;
-        
-        const modelDtypes = regionEntry.deploymentTypes ?? [];
-        
-        // Check if model contains ALL selected tags
-        const hasAllTags = selectedDtypes.every((tag: string) => {
-          // Tag can be in source or in deploymentTypes
-          return model.source === tag || modelDtypes.includes(tag);
-        });
-        
-        if (selectedDtypes.length > 0 && !hasAllTags) continue;
+        if (!passesTagFilter(model, [regionEntry])) continue;
+      } else if (viewMode === "single" && isContinentSelected) {
+        // Continent mode: show models available in ANY region of the continent
+        const matchingRegions = model.regions.filter(
+          (r) => continentRegionNames.includes(r.region) && r.available,
+        );
+        if (matchingRegions.length === 0) continue;
+        if (!passesTagFilter(model, matchingRegions)) continue;
       } else {
-        // All regions mode: check if model has ALL tags in at least one available region
-        const hasAllTagsInSomeRegion = model.regions.some((regionEntry) => {
-          if (!regionEntry.available) return false;
-          
-          const modelDtypes = regionEntry.deploymentTypes ?? [];
-          
-          // Check if ALL selected tags are present (in source or deploymentTypes)
-          return selectedDtypes.every((tag: string) => {
-            return model.source === tag || modelDtypes.includes(tag);
-          });
-        });
-        
-        if (selectedDtypes.length > 0 && !hasAllTagsInSomeRegion) continue;
+        // All regions mode: model must have tags satisfied in at least one available region
+        const availableRegions = model.regions.filter((r) => r.available);
+        if (availableRegions.length === 0) continue;
+        if (!passesTagFilter(model, availableRegions)) continue;
       }
       
       if (lowerSearch !== "" && !model.name.toLowerCase().includes(lowerSearch)) continue;
@@ -163,43 +176,25 @@ export default function Dashboard({ providers }: Props) {
       models: familyMap.get(family)!,
     }));
 
-    // Count models available (for stats bar)
-    // Use the same ALL tags logic as above
+    // Count models available (for stats bar) — same logic, minus text search
     let filteredAvailable = 0;
-    
-    if (viewMode === "single") {
-      for (const model of data.models) {
+    for (const model of data.models) {
+      if (viewMode === "single" && !isContinentSelected) {
         const regionEntry = model.regions.find((r) => r.region === region);
         if (!regionEntry?.available) continue;
-        
-        const modelDtypes = regionEntry.deploymentTypes ?? [];
-        
-        // Check if model contains ALL selected tags
-        const hasAllTags = selectedDtypes.every((tag: string) => {
-          return model.source === tag || modelDtypes.includes(tag);
-        });
-        
-        if (selectedDtypes.length > 0 && !hasAllTags) continue;
-        
-        filteredAvailable++;
+        if (!passesTagFilter(model, [regionEntry])) continue;
+      } else if (viewMode === "single" && isContinentSelected) {
+        const matchingRegions = model.regions.filter(
+          (r) => continentRegionNames.includes(r.region) && r.available,
+        );
+        if (matchingRegions.length === 0) continue;
+        if (!passesTagFilter(model, matchingRegions)) continue;
+      } else {
+        const availableRegions = model.regions.filter((r) => r.available);
+        if (availableRegions.length === 0) continue;
+        if (!passesTagFilter(model, availableRegions)) continue;
       }
-    } else {
-      // In "all regions" mode, count models that have ALL tags in at least one region
-      for (const model of data.models) {
-        const hasAllTagsInSomeRegion = model.regions.some((regionEntry) => {
-          if (!regionEntry.available) return false;
-          
-          const modelDtypes = regionEntry.deploymentTypes ?? [];
-          
-          return selectedDtypes.every((tag: string) => {
-            return model.source === tag || modelDtypes.includes(tag);
-          });
-        });
-        
-        if (selectedDtypes.length > 0 && !hasAllTagsInSomeRegion) continue;
-        
-        filteredAvailable++;
-      }
+      filteredAvailable++;
     }
 
     return {
@@ -207,7 +202,7 @@ export default function Dashboard({ providers }: Props) {
       availableCount: filteredAvailable,
       totalModels: data.models.length,
     };
-  }, [data, region, search, selectedDtypes, viewMode]);
+  }, [data, region, search, selectedDtypes, viewMode, isContinentSelected, continentRegionNames]);
 
   /* ---- handler: switch provider ---- */
   function handleProviderChange(newProvider: string) {
@@ -328,6 +323,12 @@ export default function Dashboard({ providers }: Props) {
               >
                 {grouped.map((g) => (
                   <optgroup key={g.group} label={g.group}>
+                    <option
+                      key={`${CONTINENT_PREFIX}${g.group}`}
+                      value={`${CONTINENT_PREFIX}${g.group}`}
+                    >
+                      {`All ${g.group} (${g.regions.length} regions)`}
+                    </option>
                     {g.regions.map((r) => (
                       <option key={r} value={r}>
                         {r}
@@ -448,9 +449,14 @@ export default function Dashboard({ providers }: Props) {
           <span className="text-gray-500">
             &middot; {familyGroups.length} families
           </span>
-          {viewMode === "single" && (
+          {viewMode === "single" && !isContinentSelected && (
             <span className="ml-auto text-gray-500">
               {allRegions.length} regions
+            </span>
+          )}
+          {viewMode === "single" && isContinentSelected && (
+            <span className="ml-auto text-gray-500">
+              {continentRegionNames.length} regions in continent
             </span>
           )}
         </div>
@@ -547,16 +553,22 @@ export default function Dashboard({ providers }: Props) {
                   <tbody className="divide-y divide-gray-800">
                     {group.models.map((m, i) => {
                       const url = getModelUrl(m, provider);
+
+                      // Determine rendering mode:
+                      // - "multi" when viewing all regions OR a continent
+                      // - "single" when viewing one specific region
+                      const isMultiRegionView = viewMode === "all" || isContinentSelected;
                       
-                      if (viewMode === "all") {
-                        // All regions mode: show model name with available regions
-                        const availableRegions = m.regions.filter((r) => r.available).map((r) => r.region);
+                      if (isMultiRegionView) {
+                        // Multi-region mode: show model name with available regions
+                        // Scope to continent regions when a continent is selected
+                        const scopedRegions = isContinentSelected
+                          ? m.regions.filter((r) => continentRegionNames.includes(r.region))
+                          : m.regions;
+                        const availableRegionEntries = scopedRegions.filter((r) => r.available);
+                        const availableRegionNames = availableRegionEntries.map((r) => r.region);
                         const allDeploymentTypes = Array.from(
-                          new Set(
-                            m.regions
-                              .filter((r) => r.available)
-                              .flatMap((r) => r.deploymentTypes)
-                          )
+                          new Set(availableRegionEntries.flatMap((r) => r.deploymentTypes)),
                         );
                         
                         return (
@@ -579,12 +591,12 @@ export default function Dashboard({ providers }: Props) {
                                   </div>
                                 )}
                                 <div className="flex flex-wrap gap-1">
-                                  {availableRegions.map((reg) => (
+                                  {availableRegionNames.map((reg) => (
                                     <span key={reg} className="inline-block rounded px-1.5 py-0.5 text-[10px] bg-blue-900/30 text-blue-400">
                                       {reg}
                                     </span>
                                   ))}
-                                  {availableRegions.length === 0 && (
+                                  {availableRegionNames.length === 0 && (
                                     <span className="text-xs text-gray-500 italic">No regions available</span>
                                   )}
                                 </div>
@@ -602,7 +614,7 @@ export default function Dashboard({ providers }: Props) {
                                 </a>
                               ) : (
                                 <span className="inline-block rounded-full bg-green-900/40 px-2 py-0.5 text-xs font-medium text-green-400">
-                                  {availableRegions.length} region{availableRegions.length !== 1 ? "s" : ""}
+                                  {availableRegionNames.length} region{availableRegionNames.length !== 1 ? "s" : ""}
                                 </span>
                               )}
                             </td>

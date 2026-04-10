@@ -136,7 +136,7 @@ const GCP_REGION_GROUPS: Record<string, RegionGroup> = {
 };
 
 /** Group ordering – Europe always first. */
-const GROUP_ORDER: RegionGroup[] = [
+export const GROUP_ORDER: RegionGroup[] = [
   "Europe",
   "North America",
   "Asia Pacific",
@@ -144,6 +144,38 @@ const GROUP_ORDER: RegionGroup[] = [
   "South America",
   "Government",
 ];
+
+/** Prefix used to distinguish continent entries from individual regions in the selector. */
+export const CONTINENT_PREFIX = "continent:";
+
+/**
+ * Check whether a selector value represents a continent rather than a single region.
+ */
+export function isContinent(value: string): boolean {
+  return value.startsWith(CONTINENT_PREFIX);
+}
+
+/**
+ * Extract the RegionGroup name from a continent selector value.
+ */
+export function continentGroup(value: string): RegionGroup {
+  return value.slice(CONTINENT_PREFIX.length) as RegionGroup;
+}
+
+/**
+ * Given a continent selector value (e.g. "continent:Europe") and the full list
+ * of region names for the provider, return the subset of regions belonging to
+ * that continent.
+ */
+export function regionsForContinent(
+  continentValue: string,
+  allRegionNames: string[],
+  provider: string,
+): string[] {
+  const group = continentGroup(continentValue);
+  const map = getGroupMap(provider);
+  return allRegionNames.filter((r) => map[r] === group);
+}
 
 /**
  * Given a provider key, return the region-to-group mapping.
