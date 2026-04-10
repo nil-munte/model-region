@@ -50,9 +50,21 @@ export default function Dashboard({ providers }: Props) {
     const sourceSet = new Set<string>();
     for (const model of data.models) {
       if (model.source) sourceSet.add(model.source);
-      for (const regionEntry of model.regions) {
-        for (const dt of regionEntry.deploymentTypes ?? []) {
-          dtypeSet.add(dt);
+      
+      if (viewMode === "single") {
+        // In single-region mode, only collect deployment types for the selected region
+        const regionEntry = model.regions.find((r) => r.region === region);
+        if (regionEntry?.available) {
+          for (const dt of regionEntry.deploymentTypes ?? []) {
+            dtypeSet.add(dt);
+          }
+        }
+      } else {
+        // In all-regions mode, collect from all regions
+        for (const regionEntry of model.regions) {
+          for (const dt of regionEntry.deploymentTypes ?? []) {
+            dtypeSet.add(dt);
+          }
         }
       }
     }
@@ -74,7 +86,7 @@ export default function Dashboard({ providers }: Props) {
       azureSourceTags: azureSources,
       allUniqueTags: uniqueTags,
     };
-  }, [data, provider]);
+  }, [data, provider, viewMode, region]);
 
   /* ---- derived: available models grouped by family ---- */
   const { familyGroups, availableCount, totalModels } = useMemo(() => {
@@ -597,14 +609,9 @@ export default function Dashboard({ providers }: Props) {
                           </tr>
                         );
                       } else {
-                        // Single region mode: simple display
-                        const allDeploymentTypes = Array.from(
-                          new Set(
-                            m.regions
-                              .filter((r) => r.available)
-                              .flatMap((r) => r.deploymentTypes)
-                          )
-                        );
+                        // Single region mode: show deployment types for the SELECTED region only
+                        const selectedRegionEntry = m.regions.find((r) => r.region === region);
+                        const allDeploymentTypes = selectedRegionEntry?.deploymentTypes ?? [];
                         
                         return (
                           <tr key={`${m.name}-${i}`} className="hover:bg-gray-900/60">
