@@ -7,7 +7,7 @@ It scrapes public documentation, normalizes data into JSON, provides a CLI query
 ## Architecture
 
 ### Scrapers (`src/`)
-- `src/scrapers/azure.ts` and `src/scrapers/aws.ts` fetch provider documentation and convert HTML tables into the shared `ModelRegionData` shape.
+- `src/scrapers/azure.ts`, `src/scrapers/aws.ts`, `src/scrapers/gcp.ts`, and `src/scrapers/azure-databricks.ts` fetch provider documentation and convert HTML tables into the shared `ModelRegionData` shape.
 - `src/query.ts` reads the generated JSON files and provides region, model, and stats queries via CLI.
 - `src/types/index.ts` is the source of truth for data contracts.
 - `data/*.json` are generated artifacts and should only change when scraper behavior or source documentation changes.
@@ -26,6 +26,8 @@ It scrapes public documentation, normalizes data into JSON, provides a CLI query
 - Install dependencies with `npm install`.
 - Run `npm run scrape:azure` to refresh Azure data.
 - Run `npm run scrape:aws` to refresh AWS data.
+- Run `npm run scrape:gcp` to refresh GCP data.
+- Run `npm run scrape:azure-databricks` to refresh Azure Databricks data.
 - Run `npm run query -- <provider?> <command> <value?>` for CLI queries.
 - Run `npm test` to validate the generated data and query behavior.
 
@@ -145,70 +147,99 @@ Load the model-link-scraping skill and help me improve AWS model URLs
 
 OpenCode agents in this project operate as **senior software engineers** with autonomous git and GitHub operation capabilities.
 
-### Autonomous Git Operations
+### Git Workflow: Branch + PR Required
 
-**Agents should manage git operations without asking for permission:**
+**All changes must go through feature branches and pull requests.** Direct pushes to `clean-main` are prohibited.
 
-1. **Pull before making changes**
-   - Always `git pull origin clean-main` before starting work to avoid conflicts
-   - Check current branch and sync state with `git status`
+The only exception is the automated GitHub Actions workflow that commits `chore: update model data [skip ci]` on a schedule.
 
-2. **Commit autonomously**
-   - Make atomic commits when a logical unit of work is complete
-   - Write clear, conventional commit messages (e.g., `feat:`, `fix:`, `docs:`, `refactor:`)
-   - Commit examples:
-     - After fixing a parser bug: `fix: handle new Azure table structure in scraper`
-     - After adding a feature: `feat: add support for Oracle Cloud provider`
-     - After improving docs: `docs: update contributing guidelines`
-   - Do NOT ask "Should I commit this?" - use engineering judgment
+#### 1. Start with an Issue
 
-3. **Push autonomously**
-   - Push commits to `clean-main` when ready for deployment
-   - For experimental or large changes, create a feature branch first
-   - Do NOT ask "Should I push this?" - push when the work is complete and tested
+Before starting non-trivial work, create or find a GitHub issue:
+- Use `github_create_issue` to create a new issue describing the work
+- Reference existing issues when the work is already tracked
+- This creates traceability between code changes and their motivation
 
-4. **When to commit and push**
-   - ✅ **DO commit/push**: Bug fixes, completed features, documentation updates, test additions
-   - ✅ **DO commit/push**: After running tests and verifying changes work
-   - ❌ **DON'T commit/push**: Partial implementations, broken code, failing tests
-   - ❌ **DON'T commit/push**: Sensitive files (see Security Requirements above)
+#### 2. Create a Feature Branch
+
+Always branch from `clean-main`:
+
+```bash
+git pull origin clean-main
+git checkout -b <type>/<short-description>
+```
+
+**Branch naming convention:**
+- `feat/add-oracle-scraper` — new features
+- `fix/azure-table-parsing` — bug fixes
+- `refactor/remove-any-types` — code cleanup
+- `docs/update-readme-providers` — documentation
+- `test/multi-provider-validation` — test improvements
+
+#### 3. Commit Atomically
+
+- Make atomic commits when a logical unit of work is complete
+- Write clear, conventional commit messages (e.g., `feat:`, `fix:`, `docs:`, `refactor:`)
+- Reference issue numbers in commit messages: `fix: correct AWS region mapping (#8)`
+- Do NOT ask "Should I commit this?" — use engineering judgment
+
+#### 4. Push and Open a Pull Request
+
+```bash
+git push origin <branch-name>
+```
+
+Then create a PR using `github_create_pull_request`:
+- **Title**: Use conventional commit format (e.g., `fix: correct AWS region mapping`)
+- **Body**: Describe what changed and why, reference the issue with `closes #N`
+- **Base**: Always `clean-main`
+
+The PR preview deployment workflow will automatically build and deploy a preview.
+
+#### 5. Merge via Squash
+
+Use squash merge (`github_merge_pull_request` with `merge_method: "squash"`) to keep `clean-main` history clean. Each PR becomes a single commit on the main branch.
+
+#### What NOT to Do
+
+- ❌ **Never push directly to `clean-main`** (branch protection enforces this)
+- ❌ **Never commit partial implementations** or broken code
+- ❌ **Never commit sensitive files** (see Security Requirements above)
+- ❌ **Never merge without PR preview passing**
 
 ### Autonomous GitHub Operations
 
 **GitHub MCP server is enabled** in `opencode.jsonc` for automated GitHub operations:
 
+- **Create issues**: Use `github_create_issue` before starting work
 - **Create branches**: Use `github_create_branch` for feature work
-- **Create PRs**: Use `github_create_pull_request` for review workflows
-- **Manage issues**: Use `github_create_issue`, `github_list_issues`, `github_update_issue`
-- **Merge PRs**: Use `github_merge_pull_request` after approval
+- **Create PRs**: Use `github_create_pull_request` with issue references
+- **Manage issues**: Use `github_list_issues`, `github_update_issue`
+- **Merge PRs**: Use `github_merge_pull_request` with `merge_method: "squash"`
 
-**Example workflows:**
+**Standard workflow:**
 
 ```
-# Feature development with PR
-1. git pull origin clean-main
-2. github_create_branch({ branch: "feature/oracle-scraper" })
-3. [implement changes]
-4. git add . && git commit -m "feat: add Oracle Cloud scraper"
-5. git push origin feature/oracle-scraper
-6. github_create_pull_request({ head: "feature/oracle-scraper", base: "clean-main" })
-
-# Quick fix directly to clean-main
-1. git pull origin clean-main
-2. [fix bug]
-3. git add . && git commit -m "fix: correct AWS region mapping"
-4. git push origin clean-main
+1. github_create_issue (or find existing issue)
+2. git pull origin clean-main
+3. git checkout -b feat/my-feature
+4. [implement changes]
+5. git add . && git commit -m "feat: add my feature (#N)"
+6. git push origin feat/my-feature
+7. github_create_pull_request({ head: "feat/my-feature", base: "clean-main", body: "closes #N" })
+8. [verify PR preview passes]
+9. github_merge_pull_request({ merge_method: "squash" })
+10. github_update_issue({ state: "closed" })  // if not auto-closed by "closes #N"
 ```
 
 ### Engineering Judgment Guidelines
 
 **Use your judgment to decide**:
 - When a change is ready to commit (code works, tests pass, meets requirements)
-- Whether to push directly to `clean-main` (small fixes, docs) or create a PR (large features, breaking changes)
-- When to create a branch vs. working on `clean-main` (experimental = branch, routine = main)
 - What constitutes a logical commit boundary (one bug fix, one feature, one refactor)
+- How to break large features into reviewable PR-sized chunks
 
-**Key principle**: Act like a senior engineer on the team. You have commit access because you're trusted to make good decisions. Don't ask for permission for routine operations—just do them correctly.
+**Key principle**: Act like a senior engineer on the team. You have autonomy because you're trusted to follow the process correctly. Don't ask for permission — but always use branches and PRs.
 
 ### Reference Documentation
 

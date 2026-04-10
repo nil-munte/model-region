@@ -9,7 +9,7 @@ This project is configured for **OpenCode**, an AI coding agent. If you use Open
 - **Agents**: Invoke specialized agents with `@scraper-specialist` or `@query-specialist`
 - **Skills**: Load skills with commands like `load the model-link-scraping skill`
 - **Configuration**: See `AGENTS.md` for complete OpenCode documentation
-- **Autonomous Mode**: Agents operate as senior engineers - they autonomously pull, commit, and push without asking permission (see `AGENTS.md` "Agent Behavior: Senior Software Engineer Role" section)
+- **Autonomous Mode**: Agents operate as senior engineers — they autonomously create branches, commit, push, and open PRs (see `AGENTS.md` "Agent Behavior: Senior Software Engineer Role" section). All changes go through feature branches and PRs; direct pushes to `clean-main` are prohibited.
 
 ## Development Workflow
 
@@ -209,17 +209,18 @@ opencode mcp auth github
 
 ### Example Workflows
 
-**Agents automatically handle:**
+**Agents automatically handle the full branch + PR workflow:**
 ```
 @scraper-specialist add Oracle Cloud scraper
 ```
-→ Agent creates branch, implements feature, commits, pushes, creates PR
+→ Agent creates issue, creates branch, implements feature, commits, pushes, creates PR
 
-**Quick fixes go direct to clean-main:**
 ```
 @scraper-specialist fix the Azure parser bug
 ```
-→ Agent pulls, fixes, tests, commits, pushes to `clean-main`
+→ Agent creates branch, fixes, tests, commits, pushes, creates PR
+
+**All changes require a PR** — no direct pushes to `clean-main`.
 
 See `AGENTS.md` and `.opencode/MCP-USAGE.md` for detailed autonomous operation guidelines.
 
