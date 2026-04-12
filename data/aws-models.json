@@ -1,6 +1,6 @@
 {
   "provider": "AWS Bedrock",
-  "lastUpdated": "2026-04-11T04:11:23.417Z",
+  "lastUpdated": "2026-04-12T04:38:26.497Z",
   "models": [
     {
       "name": "AI21 Labs - Jamba 1.5 Large",

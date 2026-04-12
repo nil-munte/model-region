@@ -1,6 +1,6 @@
 {
   "provider": "Google Vertex AI",
-  "lastUpdated": "2026-04-11T04:11:25.734Z",
+  "lastUpdated": "2026-04-12T04:38:29.121Z",
   "models": [
     {
       "name": "Gemini 2.5 Flash Live API Native Audio",
@@ -3204,6 +3204,88 @@
       "name": "DeepSeek-V3.1",
       "source": "Google Cloud Open Model support",
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/deepseek",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Gemma 4 26B A4B IT",
+      "source": "Google Cloud Open Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency#multi-region",
       "regions": [
         {
           "region": "asia-east1",
