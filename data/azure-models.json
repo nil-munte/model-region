@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-14T04:37:23.257Z",
+  "lastUpdated": "2026-04-15T04:37:27.676Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -20814,10 +20814,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -20982,10 +20980,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -21150,10 +21146,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -21318,10 +21312,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -21486,10 +21478,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -21654,10 +21644,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
@@ -21822,10 +21810,8 @@
         },
         {
           "region": "westcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
+          "available": false,
+          "deploymentTypes": []
         },
         {
           "region": "westeurope",
