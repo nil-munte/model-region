@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-04-15T04:37:30.403Z",
+  "lastUpdated": "2026-04-16T04:43:36.283Z",
   "models": [
     {
       "name": "BGE v1.5 (English)",
@@ -122,128 +122,6 @@
         }
       ],
       "source": "Foundation Model APIs provisioned throughput"
-    },
-    {
-      "name": "databricks-claude-3-7-sonnet",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "brazilsouth",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadacentral",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "centralindia",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "centralus",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastasia",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "francecentral",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "germanywestcentral",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japaneast",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "northcentralus",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "northeurope",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southcentralus",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southeastasia",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uaenorth",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uksouth",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus",
-          "available": true,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus2",
-          "available": true,
-          "deploymentTypes": []
-        }
-      ],
-      "source": "Foundation Model APIs pay-per-token",
-      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-sonnet"
     },
     {
       "name": "databricks-claude-haiku-4-5",
