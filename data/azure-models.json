@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-16T04:43:33.733Z",
+  "lastUpdated": "2026-04-17T04:40:42.881Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -20675,6 +20675,172 @@
     },
     {
       "name": "Claude Mythos Preview2",
+      "source": "Foundry models from partners/community",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/deploy-models-serverless-availability",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "italynorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "norwayeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "polandcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southafricanorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "spaincentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.7",
       "source": "Foundry models from partners/community",
       "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/deploy-models-serverless-availability",
       "regions": [

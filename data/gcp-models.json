@@ -1,6 +1,6 @@
 {
   "provider": "Google Vertex AI",
-  "lastUpdated": "2026-04-16T04:43:37.667Z",
+  "lastUpdated": "2026-04-17T04:40:47.541Z",
   "models": [
     {
       "name": "Gemini 2.5 Flash Live API Native Audio",
@@ -1966,6 +1966,88 @@
         {
           "region": "us-multi-region",
           "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "Anthropic's Claude Opus 4.7",
+      "source": "Google Cloud Partner Model support",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "regions": [
+        {
+          "region": "asia-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-northeast3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-south1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "asia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "australia-southeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eu-multi-region",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west3",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west4",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "europe-west9",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northamerica-northeast1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southamerica-east1",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "us-multi-region",
+          "available": true,
           "deploymentTypes": []
         }
       ]
