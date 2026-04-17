@@ -7,7 +7,7 @@ const args = process.argv.slice(2);
 
 // Determine which provider to query
 let provider = 'azure'; // default
-const validProviders = ['azure', 'aws', 'azure-databricks', 'gcp'];
+const validProviders = ['azure', 'aws', 'azure-databricks', 'gcp', 'openai', 'claude'];
 if (args[0] && validProviders.includes(args[0].toLowerCase())) {
   provider = args.shift()!.toLowerCase();
 }
@@ -26,7 +26,7 @@ if (args.length === 0) {
   console.log('🔍 Model-Region Query Tool\n');
   console.log('Usage:');
   console.log('  npm run query [provider] <command> <args>    # Query provider data\n');
-  console.log('Providers: azure, aws, azure-databricks, gcp (default: azure)\n');
+  console.log('Providers: azure, aws, azure-databricks, gcp, openai, claude (default: azure)\n');
   console.log('Commands:');
   console.log('  region <region-name>    # Find models in a region');
   console.log('  model <model-name>      # Find regions for a model');
@@ -34,6 +34,8 @@ if (args.length === 0) {
   console.log('Examples:');
   console.log('  npm run query region eastus2              # Azure by default');
   console.log('  npm run query azure model gpt-4o');
+  console.log('  npm run query openai model gpt-5.4');
+  console.log('  npm run query claude model claude-opus-4-7');
   console.log('  npm run query aws region us-east-1');
   console.log('  npm run query azure-databricks model claude');
   console.log('  npm run query gcp region us-multi-region');

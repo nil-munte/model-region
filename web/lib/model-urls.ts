@@ -6,6 +6,8 @@
  * AWS models link to the Bedrock supported models reference page.
  * Azure Databricks models use the URL from model data (if available).
  * Google Vertex AI models link to the data residency docs page.
+ * OpenAI models link to the OpenAI developer documentation.
+ * Claude models link to the Claude platform documentation.
  */
 
 import type { ModelInfo } from "./data";
@@ -25,6 +27,11 @@ const AZURE_DATABRICKS_DOC =
 
 const GCP_VERTEX_AI_DOC =
   "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency";
+
+const OPENAI_DOC = "https://developers.openai.com/api/docs/models";
+
+const CLAUDE_DOC =
+  "https://platform.claude.com/docs/en/about-claude/models/overview";
 
 /**
  * Azure OpenAI model name patterns (matched from the OpenAI pivot page).
@@ -108,6 +115,14 @@ export function getModelUrl(
 
   if (provider === "vertex" || provider === "gcp") {
     return GCP_VERTEX_AI_DOC;
+  }
+
+  if (provider === "openai") {
+    return OPENAI_DOC;
+  }
+
+  if (provider === "claude") {
+    return CLAUDE_DOC;
   }
 
   return null;

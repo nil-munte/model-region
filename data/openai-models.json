@@ -1,0 +1,42 @@
+{
+  "provider": "OpenAI",
+  "lastUpdated": "2026-04-17T13:37:44.945Z",
+  "models": [
+    {
+      "name": "gpt-5.4",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "5.4"
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "5.4-mini"
+    },
+    {
+      "name": "gpt-5.4-nano",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "5.4-nano"
+    }
+  ]
+}
