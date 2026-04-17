@@ -1,0 +1,45 @@
+{
+  "provider": "Claude",
+  "lastUpdated": "2026-04-17T14:03:03.546Z",
+  "models": [
+    {
+      "name": "claude-opus-4-7",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "4-7",
+      "knowledgeCutoff": "Jan 20262"
+    },
+    {
+      "name": "claude-sonnet-4-6",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "4-6",
+      "knowledgeCutoff": "Aug 20252"
+    },
+    {
+      "name": "claude-haiku-4-5-20251001",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "4-5-20251001",
+      "knowledgeCutoff": "Feb 2025"
+    }
+  ]
+}

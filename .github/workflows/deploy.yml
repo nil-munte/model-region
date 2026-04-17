@@ -66,6 +66,14 @@ jobs:
         run: npm run scrape:gcp
         continue-on-error: true
         
+      - name: Run OpenAI scraper
+        run: npm run scrape:openai
+        continue-on-error: true
+        
+      - name: Run Claude scraper
+        run: npm run scrape:claude
+        continue-on-error: true
+        
       - name: Validate scraped data
         run: npm run validate-data || echo "Validation script not found, skipping"
         

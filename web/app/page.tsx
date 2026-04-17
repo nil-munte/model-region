@@ -4,7 +4,7 @@ import { loadAllProviders } from "@/lib/data";
 export default function Home() {
   const providers = loadAllProviders();
 
-  const hasData = providers.azure !== null || providers.aws !== null || providers["azure-databricks"] !== null;
+  const hasData = Object.values(providers).some(p => p !== null);
 
   if (!hasData) {
     return (
@@ -15,7 +15,7 @@ export default function Home() {
             Run the scrapers from the project root to generate model data:
           </p>
           <pre className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-sm text-left text-gray-300 space-y-1">
-            <code>npm run scrape:azure{"\n"}npm run scrape:aws{"\n"}npm run scrape:azure-databricks</code>
+            <code>npm run scrape:azure{"\n"}npm run scrape:aws{"\n"}npm run scrape:azure-databricks{"\n"}npm run scrape:gcp{"\n"}npm run scrape:openai{"\n"}npm run scrape:claude</code>
           </pre>
           <p className="text-gray-500 text-xs mt-4">
             Then reload this page.

@@ -9,6 +9,8 @@
     "scrape:aws": "tsx src/scrapers/aws.ts",
     "scrape:azure-databricks": "tsx src/scrapers/azure-databricks.ts",
     "scrape:gcp": "tsx src/scrapers/gcp.ts",
+    "scrape:openai": "tsx src/scrapers/openai.ts",
+    "scrape:claude": "tsx src/scrapers/claude.ts",
     "query": "tsx src/query.ts",
     "validate-urls": "tsx scripts/validate-urls.ts",
     "discover-patterns": "tsx scripts/discover-patterns.ts",

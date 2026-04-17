@@ -5,6 +5,7 @@
  */
 
 export type RegionGroup =
+  | "Global"
   | "Europe"
   | "North America"
   | "Asia Pacific"
@@ -135,8 +136,14 @@ const GCP_REGION_GROUPS: Record<string, RegionGroup> = {
   "australia-southeast1": "Asia Pacific",
 };
 
-/** Group ordering – Europe always first. */
+/** Global region mapping for direct API providers (OpenAI, Claude) */
+const GLOBAL_REGION_GROUPS: Record<string, RegionGroup> = {
+  global: "Global",
+};
+
+/** Group ordering – Global first for direct API providers, then Europe. */
 export const GROUP_ORDER: RegionGroup[] = [
+  "Global",
   "Europe",
   "North America",
   "Asia Pacific",
@@ -181,6 +188,7 @@ export function regionsForContinent(
  * Given a provider key, return the region-to-group mapping.
  */
 function getGroupMap(provider: string): Record<string, RegionGroup> {
+  if (provider === "openai" || provider === "claude") return GLOBAL_REGION_GROUPS;
   if (provider === "aws") return AWS_REGION_GROUPS;
   if (provider === "gcp") return GCP_REGION_GROUPS;
   // Azure and Azure Databricks use the same region naming convention
@@ -224,13 +232,17 @@ export function groupRegions(
 }
 
 /**
- * Default European region per provider (best model coverage).
+ * Default region per provider.
+ * For global providers (OpenAI, Claude), default to "global".
+ * For regional providers, default to European region with best coverage.
  */
 const DEFAULT_REGIONS: Record<string, string> = {
   azure: "swedencentral",
   aws: "Europe (Frankfurt)",
   "azure-databricks": "westeurope",
   gcp: "eu-multi-region",
+  openai: "global",
+  claude: "global",
 };
 
 export function getDefaultRegion(provider: string): string {

@@ -19,6 +19,8 @@ export interface ModelInfo {
   source?: string;
   /** Documentation URL for this model. */
   url?: string;
+  /** Knowledge cutoff date (e.g. "Aug 31, 2025" for OpenAI, "Jan 2026" for Claude). */
+  knowledgeCutoff?: string;
   regions: RegionAvailability[];
 }
 
@@ -29,7 +31,7 @@ export interface ProviderData {
 }
 
 /** Supported provider keys used throughout the web UI. */
-export type ProviderKey = "azure" | "aws" | "azure-databricks" | "gcp";
+export type ProviderKey = "azure" | "aws" | "azure-databricks" | "gcp" | "openai" | "claude";
 
 const DATA_DIR = join(process.cwd(), "..", "data");
 
@@ -38,6 +40,8 @@ const FILE_MAP: Record<ProviderKey, string> = {
   aws: "aws-models.json",
   "azure-databricks": "azure-databricks-models.json",
   gcp: "gcp-models.json",
+  openai: "openai-models.json",
+  claude: "claude-models.json",
 };
 
 /**
@@ -60,5 +64,7 @@ export function loadAllProviders(): Record<ProviderKey, ProviderData | null> {
     aws: loadProviderData("aws"),
     "azure-databricks": loadProviderData("azure-databricks"),
     gcp: loadProviderData("gcp"),
+    openai: loadProviderData("openai"),
+    claude: loadProviderData("claude"),
   };
 }

@@ -41,6 +41,14 @@ This project scrapes public documentation from cloud providers (Azure, AWS, Goog
 - **Query Tool**: Extended to support Google Vertex AI data
 - **Documentation Links**: Each model in the web UI links to the Google Cloud documentation
 
+### Phase 5: Direct Model Creator APIs (Complete)
+- **OpenAI Scraper**: Successfully scrapes OpenAI developer documentation
+- **Claude/Anthropic Scraper**: Successfully scrapes Claude platform documentation
+- **Data Extraction**: GPT-5.x models (3 models) and Claude 4.5+ models (3 models)
+- **Global Availability**: All models marked as available in a single "global" region (no geographic restrictions)
+- **Knowledge Cutoff Tracking**: Captures training data cutoff dates for each model
+- **Query Tool**: Extended to support OpenAI and Claude data
+
 ### Phase 6: Web Application (Complete)
 - **Next.js Web UI**: Dark-themed dashboard to browse model availability
 - **Provider Selector**: Switch between Azure and AWS
@@ -77,6 +85,20 @@ This project scrapes public documentation from cloud providers (Azure, AWS, Goog
 - **Model Categories**: Google Cloud Model support (96), Google Cloud Partner Model support (51), Google Cloud Open Model support (57)
 - **Top Regions**: us-multi-region (23.0%), eu-multi-region (15.2%), asia-southeast1 (5.9%)
 - **Documentation Links**: Each model links to the data residency documentation page
+
+### OpenAI (Direct API)
+- **Models Tracked**: 3 models (GPT-5.x series only)
+- **Availability**: Global (no regional restrictions)
+- **Data Source**: [OpenAI Developer Documentation](https://developers.openai.com/api/docs/models)
+- **Models**: gpt-5.4, gpt-5.4-mini, gpt-5.4-nano
+- **Knowledge Cutoff**: Aug 31, 2025
+
+### Claude/Anthropic (Direct API)
+- **Models Tracked**: 3 models (Claude 4.5+ series only)
+- **Availability**: Global (no regional restrictions)
+- **Data Source**: [Claude Platform Documentation](https://platform.claude.com/docs/en/about-claude/models/overview)
+- **Models**: Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5
+- **Knowledge Cutoffs**: Jan 2026 (Opus 4.7), Aug 2025 (Sonnet 4.6), Feb 2025 (Haiku 4.5)
 
 ### Sample Output
 
@@ -161,6 +183,12 @@ npm run scrape:azure-databricks
 
 # Scrape Google Vertex AI models
 npm run scrape:gcp
+
+# Scrape OpenAI models (direct API, global availability)
+npm run scrape:openai
+
+# Scrape Claude/Anthropic models (direct API, global availability)
+npm run scrape:claude
 ```
 
 Each scraper will:
@@ -178,8 +206,8 @@ npm run dev
 
 Open http://localhost:3000 to browse model availability:
 
-1. **Select a provider** (Azure / AWS) from the dropdown
-2. **Select a region** -- Europe regions are listed first and selected by default
+1. **Select a provider** (Azure / AWS / GCP / Azure Databricks / OpenAI / Claude) from the dropdown
+2. **Select a region** (for cloud providers) or view global availability (for OpenAI/Claude)
 3. **Browse the model table** showing availability in the chosen region
 4. **Filter models** by typing in the search box
 5. **Refresh data** with the button in the header to re-run scrapers
@@ -210,6 +238,14 @@ npm run query azure-databricks stats
 npm run query gcp region us-multi-region
 npm run query gcp model gemini
 npm run query gcp stats
+
+# Query OpenAI (global availability)
+npm run query openai model gpt-5.4
+npm run query openai stats
+
+# Query Claude/Anthropic (global availability)
+npm run query claude model claude-opus-4-7
+npm run query claude stats
 ```
 
 ### Run Tests
@@ -237,7 +273,9 @@ model-region/
 │   ├── azure-models.json     # Scraped Azure model data (65 models, 28 regions)
 │   ├── aws-models.json       # Scraped AWS model data (81 models, 35 regions)
 │   ├── azure-databricks-models.json  # Azure Databricks data (28 models, 23 regions)
-│   └── gcp-models.json       # Google Vertex AI data (204 models, 15 regions)
+│   ├── gcp-models.json       # Google Vertex AI data (204 models, 15 regions)
+│   ├── openai-models.json    # OpenAI data (3 models, global availability)
+│   └── claude-models.json    # Claude/Anthropic data (3 models, global availability)
 ├── web/
 │   ├── app/
 │   │   ├── page.tsx          # Main page (server component, loads data)
@@ -267,6 +305,7 @@ interface ModelRegionData {
 interface ModelInfo {
   name: string;
   version?: string;
+  knowledgeCutoff?: string;  // Training data cutoff date (OpenAI, Claude)
   regions: RegionAvailability[];
 }
 
@@ -293,21 +332,38 @@ interface RegionAvailability {
 - **Azure ARM API**: Requires Azure subscription + OAuth authentication
 - **AWS Bedrock API**: Requires AWS IAM credentials
 - **Google Vertex AI**: No public API for model-region listings
-- **Public Docs**: All three providers publish comprehensive HTML tables publicly
+- **OpenAI/Claude Direct APIs**: No authentication required for public documentation
+- **Public Docs**: All providers publish comprehensive HTML tables publicly
+
+## Provider Categories
+
+This project tracks two types of AI model providers:
+
+### 1. Cloud Regional Providers
+These providers host models in specific geographic regions:
+- **Azure OpenAI**: 28 Azure regions
+- **AWS Bedrock**: 35 AWS regions
+- **Google Vertex AI**: 15 GCP regions
+- **Azure Databricks**: 23 Azure regions
+
+Users must select a region when deploying models. Data residency and latency depend on region choice.
+
+### 2. Direct API Providers
+These providers offer global API access without regional restrictions:
+- **OpenAI**: Global availability (no region selection)
+- **Claude/Anthropic**: Global availability (no region selection)
+
+Users access models via a single global endpoint. Data residency is managed by the provider.
 
 ## Next Steps (Planned)
 
-### Phase 5: Direct Model Creator APIs
-- [ ] Add OpenAI API integration (requires API key)
-- [ ] Add Anthropic API integration (requires API key)
-- [ ] Add Mistral API integration (requires API key)
-- [ ] Mark these as "Global" availability
-
-### Phase 6: Data Aggregation
-- [ ] Create unified data aggregator
+### Future Enhancements
+- [ ] Add Mistral API integration
+- [ ] Add Cohere API integration
 - [ ] Implement geographic region mapping (e.g., "Europe - West" -> azure regions + aws regions + gcp regions)
 - [ ] Handle duplicate models across providers
-- [ ] Create combined query interface
+- [ ] Add pricing data per model/region
+- [ ] Track model capabilities (context window, max tokens, etc.)
 
 ## Dependencies
 

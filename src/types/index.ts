@@ -11,6 +11,8 @@ export interface ModelInfo {
   source?: string;
   /** Documentation URL for this model. */
   url?: string;
+  /** Knowledge cutoff date (e.g. "Aug 31, 2025" for OpenAI, "Jan 2026" for Claude). */
+  knowledgeCutoff?: string;
   regions: RegionAvailability[];
 }
 
