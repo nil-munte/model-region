@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-21T04:40:22.939Z",
+  "lastUpdated": "2026-04-22T04:38:08.965Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -721,6 +721,1159 @@
       ]
     },
     {
+      "name": "gpt-5.3-chat, 2026-03-03",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-53",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "italynorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "norwayeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southindia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "spaincentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandwest",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gpt-5.3-codex, 2026-02-24",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-53",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "italynorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "norwayeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southindia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "spaincentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandwest",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gpt-5.2-chat, 2026-02-10",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "italynorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "norwayeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southindia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "spaincentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandwest",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gpt-5.2-chat, 2025-12-11",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "italynorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "norwayeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southindia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "spaincentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandwest",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gpt-5.2-codex, 2026-01-14",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "canadaeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "italynorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "norwayeast",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southindia",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "spaincentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandwest",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Global Provisioned Managed",
+            "Global Standard"
+          ]
+        }
+      ]
+    },
+    {
       "name": "gpt-5.2, 2025-12-11",
       "source": "Foundry models from Azure",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
@@ -971,7 +2124,8 @@
             "Data Zone Provisioned Managed",
             "Data Zone Standard",
             "Global Provisioned Managed",
-            "Global Standard"
+            "Global Standard",
+            "Provisioned Managed"
           ]
         },
         {
@@ -9303,235 +10457,6 @@
       ]
     },
     {
-      "name": "gpt-5.3-codex, 2026-02-24",
-      "source": "Foundry models from Azure",
-      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-53",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "brazilsouth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "canadacentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "canadaeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "centralus",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "eastus",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "francecentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "germanywestcentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "italynorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "japaneast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "japanwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "northcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "norwayeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "polandcentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southafricanorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "southeastasia",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southindia",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "spaincentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "switzerlandwest",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "uaenorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "uksouth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westus",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westus2",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus3",
-          "available": true,
-          "deploymentTypes": [
-            "Data Zone Standard",
-            "Global Provisioned Managed"
-          ]
-        }
-      ]
-    },
-    {
       "name": "gpt-audio-1.5, 2026-02-23",
       "source": "Foundry models from Azure",
       "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai",
@@ -10706,724 +11631,6 @@
           "region": "westus3",
           "available": false,
           "deploymentTypes": []
-        }
-      ]
-    },
-    {
-      "name": "gpt-5.3-chat, 2026-03-03",
-      "source": "Foundry models from Azure",
-      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-53",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "brazilsouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "centralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "francecentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "germanywestcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "italynorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japaneast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japanwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "northcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "norwayeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "polandcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southafricanorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southeastasia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "spaincentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "switzerlandwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uaenorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uksouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus2",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus3",
-          "available": false,
-          "deploymentTypes": []
-        }
-      ]
-    },
-    {
-      "name": "gpt-5.2-chat, 2026-02-10",
-      "source": "Foundry models from Azure",
-      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "brazilsouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "centralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "francecentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "germanywestcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "italynorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japaneast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japanwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "northcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "norwayeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "polandcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southafricanorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southeastasia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "spaincentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "switzerlandwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uaenorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uksouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus2",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus3",
-          "available": false,
-          "deploymentTypes": []
-        }
-      ]
-    },
-    {
-      "name": "gpt-5.2-chat, 2025-12-11",
-      "source": "Foundry models from Azure",
-      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "brazilsouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "canadaeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "centralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "francecentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "germanywestcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "italynorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japaneast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "japanwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "northcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "norwayeast",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "polandcentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southafricanorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southeastasia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "spaincentral",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "switzerlandwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uaenorth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "uksouth",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus2",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus3",
-          "available": false,
-          "deploymentTypes": []
-        }
-      ]
-    },
-    {
-      "name": "gpt-5.2-codex, 2026-01-14",
-      "source": "Foundry models from Azure",
-      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai#gpt-52",
-      "regions": [
-        {
-          "region": "australiaeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "brazilsouth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "canadacentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "canadaeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "centralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "eastus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "eastus2",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "francecentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "germanywestcentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "italynorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "japaneast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "japanwest",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "koreacentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "northcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "norwayeast",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "polandcentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southafricanorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southcentralus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southeastasia",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "southindia",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "spaincentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "swedencentral",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed",
-            "Global Standard"
-          ]
-        },
-        {
-          "region": "switzerlandnorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "switzerlandwest",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "uaenorth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "uksouth",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westcentralus",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westeurope",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westus",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
-        },
-        {
-          "region": "westus2",
-          "available": false,
-          "deploymentTypes": []
-        },
-        {
-          "region": "westus3",
-          "available": true,
-          "deploymentTypes": [
-            "Global Provisioned Managed"
-          ]
         }
       ]
     },
