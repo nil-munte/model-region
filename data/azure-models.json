@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-22T04:38:08.965Z",
+  "lastUpdated": "2026-04-23T04:42:49.383Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -11461,6 +11461,178 @@
           "region": "westus3",
           "available": false,
           "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "gpt-image-2, 2026-04-21",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "italynorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "norwayeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "spaincentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         }
       ]
     },
