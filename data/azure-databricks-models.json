@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-04-23T04:42:51.711Z",
+  "lastUpdated": "2026-04-24T04:46:39.095Z",
   "models": [
     {
       "name": "BGE v1.5 (English)",
