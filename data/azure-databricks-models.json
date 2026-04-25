@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-04-24T04:46:39.095Z",
+  "lastUpdated": "2026-04-25T04:27:51.145Z",
   "models": [
     {
       "name": "BGE v1.5 (English)",
@@ -2292,37 +2292,37 @@
       "regions": [
         {
           "region": "australiaeast",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "brazilsouth",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "canadacentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "centralindia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "centralus",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "eastasia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "eastus",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2342,17 +2342,17 @@
         },
         {
           "region": "japaneast",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "koreacentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "northcentralus",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2362,12 +2362,12 @@
         },
         {
           "region": "southcentralus",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "southeastasia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2397,21 +2397,21 @@
         },
         {
           "region": "westus",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "westus2",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "westus3",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         }
       ],
-      "source": "Foundation Model APIs pay-per-token",
+      "source": "AI Functions (batch inference)",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct"
     },
     {
