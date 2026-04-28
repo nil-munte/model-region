@@ -1,6 +1,6 @@
 {
   "provider": "Google Vertex AI",
-  "lastUpdated": "2026-04-27T04:59:24.895Z",
+  "lastUpdated": "2026-04-28T05:22:07.799Z",
   "models": [
     {
       "name": "Gemini 2.5 Flash Live API Native Audio",

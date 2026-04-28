@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-27T04:59:20.836Z",
+  "lastUpdated": "2026-04-28T05:22:04.088Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -524,6 +524,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -533,6 +534,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -542,6 +544,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -591,6 +594,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -634,6 +638,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -643,6 +648,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -689,6 +695,7 @@
           "available": true,
           "deploymentTypes": [
             "Data Zone Provisioned Managed",
+            "Data Zone Standard",
             "Global Provisioned Managed",
             "Global Standard"
           ]
@@ -9190,8 +9197,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -9362,8 +9371,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -9534,8 +9545,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -9706,8 +9719,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -9878,8 +9893,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -10050,8 +10067,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -10222,8 +10241,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -10394,8 +10415,10 @@
         },
         {
           "region": "southindia",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Global Standard"
+          ]
         },
         {
           "region": "spaincentral",
@@ -11414,6 +11437,180 @@
           "region": "swedencentral",
           "available": true,
           "deploymentTypes": [
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ]
+    },
+    {
+      "name": "gpt-5.5, 2026-04-24",
+      "source": "Foundry models from Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "italynorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japanwest",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "norwayeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "polandcentral",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southafricanorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
+            "Global Standard"
+          ]
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "spaincentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Standard",
             "Global Standard"
           ]
         },
