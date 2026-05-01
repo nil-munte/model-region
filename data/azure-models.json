@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-04-30T05:21:51.928Z",
+  "lastUpdated": "2026-05-01T05:33:52.977Z",
   "models": [
     {
       "name": "gpt-5.4-mini, 2026-03-17",
@@ -11519,8 +11519,12 @@
         },
         {
           "region": "eastus",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Provisioned Managed",
+            "Global Provisioned Managed",
+            "Provisioned Managed"
+          ]
         },
         {
           "region": "eastus2",
@@ -11562,8 +11566,11 @@
         },
         {
           "region": "northcentralus",
-          "available": false,
-          "deploymentTypes": []
+          "available": true,
+          "deploymentTypes": [
+            "Data Zone Provisioned Managed",
+            "Global Provisioned Managed"
+          ]
         },
         {
           "region": "norwayeast",
