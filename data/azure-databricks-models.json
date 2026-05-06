@@ -1,7 +1,133 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-05-05T04:53:25.266Z",
+  "lastUpdated": "2026-05-06T05:19:40.925Z",
   "models": [
+    {
+      "name": "Alibaba Cloud Qwen3.5 122B A10B",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs provisioned throughput"
+    },
     {
       "name": "BGE v1.5 (English)",
       "regions": [
@@ -2413,6 +2539,133 @@
       ],
       "source": "AI Functions (batch inference)",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#qwen3-next-80b-a3b-instruct"
+    },
+    {
+      "name": "databricks-qwen35-122b-a10b",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": false,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "AI Functions (batch inference)",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#qwen35-122b-a10b"
     },
     {
       "name": "Google Gemma 3 12B",
