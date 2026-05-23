@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-05-22T05:57:20.749Z",
+  "lastUpdated": "2026-05-23T05:32:17.058Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
@@ -87,7 +87,7 @@
         },
         {
           "region": "swedencentral",
-          "available": true,
+          "available": false,
           "deploymentTypes": []
         },
         {
@@ -107,7 +107,7 @@
         },
         {
           "region": "westeurope",
-          "available": true,
+          "available": false,
           "deploymentTypes": []
         },
         {
@@ -2545,22 +2545,22 @@
       "regions": [
         {
           "region": "australiaeast",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "brazilsouth",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "canadacentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "centralindia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2570,7 +2570,7 @@
         },
         {
           "region": "eastasia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2585,22 +2585,22 @@
         },
         {
           "region": "francecentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "germanywestcentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "japaneast",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "koreacentral",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2610,7 +2610,7 @@
         },
         {
           "region": "northeurope",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2620,7 +2620,7 @@
         },
         {
           "region": "southeastasia",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
@@ -2630,17 +2630,17 @@
         },
         {
           "region": "switzerlandnorth",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "uaenorth",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
           "region": "uksouth",
-          "available": false,
+          "available": true,
           "deploymentTypes": []
         },
         {
