@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-05-28T06:01:13.819Z",
+  "lastUpdated": "2026-05-29T06:03:15.505Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
@@ -888,6 +888,133 @@
       ],
       "source": "Foundation Model APIs pay-per-token",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-opus-4-7"
+    },
+    {
+      "name": "databricks-claude-opus-4-8",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-opus-4-8"
     },
     {
       "name": "databricks-claude-sonnet-4",
