@@ -1,6 +1,6 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-06-03T06:43:37.931Z",
+  "lastUpdated": "2026-06-04T06:27:33.590Z",
   "models": [
     {
       "name": "gpt-5.5",
