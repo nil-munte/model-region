@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-06-11T06:39:19.704Z",
+  "lastUpdated": "2026-06-12T06:24:08.487Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
@@ -253,6 +253,133 @@
         }
       ],
       "source": "Foundation Model APIs provisioned throughput"
+    },
+    {
+      "name": "databricks-claude-fable-5",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-fable-5"
     },
     {
       "name": "databricks-claude-haiku-4-5",
