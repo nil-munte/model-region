@@ -1,6 +1,6 @@
 {
   "provider": "Claude",
-  "lastUpdated": "2026-06-19T06:55:21.970Z",
+  "lastUpdated": "2026-06-20T06:09:40.834Z",
   "models": [
     {
       "name": "claude-opus-4-8",
@@ -12,7 +12,8 @@
           "deploymentTypes": []
         }
       ],
-      "version": "4-8"
+      "version": "4-8",
+      "knowledgeCutoff": "Jan 20262"
     },
     {
       "name": "claude-sonnet-4-6",
@@ -24,7 +25,8 @@
           "deploymentTypes": []
         }
       ],
-      "version": "4-6"
+      "version": "4-6",
+      "knowledgeCutoff": "Aug 20252"
     },
     {
       "name": "claude-haiku-4-5-20251001",
@@ -36,7 +38,8 @@
           "deploymentTypes": []
         }
       ],
-      "version": "4-5-20251001"
+      "version": "4-5-20251001",
+      "knowledgeCutoff": "Feb 2025"
     }
   ]
 }
