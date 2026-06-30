@@ -1,6 +1,6 @@
 {
   "provider": "Azure Foundry",
-  "lastUpdated": "2026-06-29T06:27:21.170Z",
+  "lastUpdated": "2026-06-30T06:01:01.154Z",
   "models": [
     {
       "name": "FLUX.2-flex",
@@ -6408,7 +6408,7 @@
       ]
     },
     {
-      "name": "Claude Mythos 52",
+      "name": "Claude Mythos 51",
       "source": "Foundry models from partners/community",
       "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/deploy-models-serverless-availability",
       "regions": [
@@ -6569,7 +6569,7 @@
       ]
     },
     {
-      "name": "Claude Mythos Preview2",
+      "name": "Claude Mythos Preview1",
       "source": "Foundry models from partners/community",
       "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/deploy-models-serverless-availability",
       "regions": [
