@@ -1,6 +1,6 @@
 {
   "provider": "Claude",
-  "lastUpdated": "2026-06-30T06:01:07.558Z",
+  "lastUpdated": "2026-07-01T06:16:03.710Z",
   "models": [
     {
       "name": "claude-opus-4-8",
@@ -16,8 +16,8 @@
       "knowledgeCutoff": "Jan 20262"
     },
     {
-      "name": "claude-sonnet-4-6",
-      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "name": "claude-sonnet-5",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
       "regions": [
         {
           "region": "global",
@@ -25,8 +25,8 @@
           "deploymentTypes": []
         }
       ],
-      "version": "4-6",
-      "knowledgeCutoff": "Aug 20252"
+      "version": "5",
+      "knowledgeCutoff": "Jan 20262"
     },
     {
       "name": "claude-haiku-4-5-20251001",
