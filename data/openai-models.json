@@ -1,9 +1,9 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-07-09T05:54:21.905Z",
+  "lastUpdated": "2026-07-10T05:53:06.737Z",
   "models": [
     {
-      "name": "gpt-5.5",
+      "name": "gpt-5.6-sol",
       "url": "https://developers.openai.com/api/docs/models",
       "regions": [
         {
@@ -12,11 +12,11 @@
           "deploymentTypes": []
         }
       ],
-      "version": "5.5"
+      "version": "5.6-sol"
     },
     {
-      "name": "gpt-5.4-mini",
-      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "name": "gpt-5.6-terra",
+      "url": "https://developers.openai.com/api/docs/models",
       "regions": [
         {
           "region": "global",
@@ -24,11 +24,11 @@
           "deploymentTypes": []
         }
       ],
-      "version": "5.4-mini"
+      "version": "5.6-terra"
     },
     {
-      "name": "gpt-5.4-nano",
-      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "name": "gpt-5.6-luna",
+      "url": "https://developers.openai.com/api/docs/models",
       "regions": [
         {
           "region": "global",
@@ -36,19 +36,7 @@
           "deploymentTypes": []
         }
       ],
-      "version": "5.4-nano"
-    },
-    {
-      "name": "gpt-5.4",
-      "url": "https://developers.openai.com/api/docs/models/gpt-5.4",
-      "regions": [
-        {
-          "region": "global",
-          "available": true,
-          "deploymentTypes": []
-        }
-      ],
-      "version": "5.4"
+      "version": "5.6-luna"
     }
   ]
 }
