@@ -1,6 +1,6 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-07-12T05:15:07.602Z",
+  "lastUpdated": "2026-07-13T05:24:21.271Z",
   "models": [
     {
       "name": "gpt-5.6-sol",
