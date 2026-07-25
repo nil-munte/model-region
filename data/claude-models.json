@@ -1,9 +1,9 @@
 {
   "provider": "Claude",
-  "lastUpdated": "2026-07-24T04:59:31.508Z",
+  "lastUpdated": "2026-07-25T04:54:53.786Z",
   "models": [
     {
-      "name": "claude-opus-4-8",
+      "name": "claude-opus-5",
       "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
       "regions": [
         {
@@ -12,8 +12,8 @@
           "deploymentTypes": []
         }
       ],
-      "version": "4-8",
-      "knowledgeCutoff": "Jan 20262"
+      "version": "5",
+      "knowledgeCutoff": "May 20262"
     },
     {
       "name": "claude-sonnet-5",
