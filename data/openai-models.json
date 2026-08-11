@@ -1,6 +1,6 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-08-10T03:42:37.158Z",
+  "lastUpdated": "2026-08-11T03:25:07.695Z",
   "models": [
     {
       "name": "gpt-5.6-sol",
@@ -37,6 +37,18 @@
         }
       ],
       "version": "5.6-luna"
+    },
+    {
+      "name": "gpt-5.6-cyber",
+      "url": "https://developers.openai.com/api/docs/models",
+      "regions": [
+        {
+          "region": "global",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "version": "5.6-cyber"
     }
   ]
 }
