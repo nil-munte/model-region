@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-08-11T03:25:04.527Z",
+  "lastUpdated": "2026-08-12T03:53:31.496Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
