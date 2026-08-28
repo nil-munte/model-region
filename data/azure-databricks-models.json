@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-08-27T12:07:22.447Z",
+  "lastUpdated": "2026-08-28T13:29:57.359Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
@@ -3428,6 +3428,133 @@
       ],
       "source": "Foundation Model APIs pay-per-token",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#glm-5-2"
+    },
+    {
+      "name": "databricks-glm-5-3-flash",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#glm-5-3-flash"
     },
     {
       "name": "databricks-gpt-5",
