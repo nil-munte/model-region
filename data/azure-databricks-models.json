@@ -1,6 +1,6 @@
 {
   "provider": "Azure Databricks",
-  "lastUpdated": "2026-09-01T06:56:19.468Z",
+  "lastUpdated": "2026-09-02T06:35:09.010Z",
   "models": [
     {
       "name": "Alibaba Cloud Qwen3.5 122B A10B",
@@ -380,6 +380,133 @@
       ],
       "source": "Foundation Model APIs pay-per-token",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-fable-5"
+    },
+    {
+      "name": "databricks-claude-fable-5-1",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#claude-fable-5-1"
     },
     {
       "name": "databricks-claude-haiku-4-5",
@@ -3428,6 +3555,133 @@
       ],
       "source": "Foundation Model APIs pay-per-token",
       "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#glm-5-2"
+    },
+    {
+      "name": "databricks-glm-5-3",
+      "regions": [
+        {
+          "region": "australiaeast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "brazilsouth",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "canadacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralindia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "centralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "eastus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "francecentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "germanywestcentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "japaneast",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "koreacentral",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "northeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southcentralus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "southeastasia",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "swedencentral",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "switzerlandnorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uaenorth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "uksouth",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westeurope",
+          "available": false,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus2",
+          "available": true,
+          "deploymentTypes": []
+        },
+        {
+          "region": "westus3",
+          "available": true,
+          "deploymentTypes": []
+        }
+      ],
+      "source": "Foundation Model APIs pay-per-token",
+      "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/foundation-model-apis/supported-models#glm-5-3"
     },
     {
       "name": "databricks-glm-5-3-flash",
