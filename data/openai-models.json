@@ -1,6 +1,6 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-09-20T07:13:37.457Z",
+  "lastUpdated": "2026-09-21T07:22:57.966Z",
   "models": [
     {
       "name": "gpt-5.6-terra",
