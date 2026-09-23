@@ -1,43 +1,7 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-09-22T07:00:15.580Z",
+  "lastUpdated": "2026-09-23T06:54:42.225Z",
   "models": [
-    {
-      "name": "gpt-5.6-terra",
-      "url": "https://developers.openai.com/api/docs/models",
-      "regions": [
-        {
-          "region": "global",
-          "available": true,
-          "deploymentTypes": []
-        }
-      ],
-      "version": "5.6-terra"
-    },
-    {
-      "name": "gpt-5.6-luna",
-      "url": "https://developers.openai.com/api/docs/models",
-      "regions": [
-        {
-          "region": "global",
-          "available": true,
-          "deploymentTypes": []
-        }
-      ],
-      "version": "5.6-luna"
-    },
-    {
-      "name": "gpt-5.6-sol",
-      "url": "https://developers.openai.com/api/docs/models",
-      "regions": [
-        {
-          "region": "global",
-          "available": true,
-          "deploymentTypes": []
-        }
-      ],
-      "version": "5.6-sol"
-    },
     {
       "name": "gpt-5.6-cyber",
       "url": "https://developers.openai.com/api/docs/models",
