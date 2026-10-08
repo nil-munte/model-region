@@ -1,6 +1,6 @@
 {
   "provider": "OpenAI",
-  "lastUpdated": "2026-10-07T07:52:28.695Z",
+  "lastUpdated": "2026-10-08T08:08:12.923Z",
   "models": [
     {
       "name": "gpt-5.6-cyber",
